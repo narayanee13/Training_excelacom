@@ -1,0 +1,129 @@
+Dec 14, 2021 2:07:08 PM logging.example.Application main
+SEVERE: 1-severe message
+Dec 14, 2021 2:07:08 PM logging.example.Application main
+WARNING: 2-warning message
+Dec 14, 2021 2:07:08 PM logging.example.Application main
+INFO: 3-java.util.logger configured successfully
+Dec 14, 2021 2:09:22 PM logging.example.Application main
+SEVERE: 1-severe message
+Dec 14, 2021 2:09:22 PM logging.example.Application main
+WARNING: 2-warning message
+Dec 14, 2021 2:09:22 PM logging.example.Application main
+INFO: 3-java.util.logger configured successfully
+Dec 14, 2021 2:09:30 PM logging.example.Application main
+SEVERE: 1-severe message
+Dec 14, 2021 2:09:30 PM logging.example.Application main
+WARNING: 2-warning message
+Dec 14, 2021 2:09:30 PM logging.example.Application main
+INFO: 3-java.util.logger configured successfully
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-14T14:15:07</date>
+  <millis>1639471507593</millis>
+  <sequence>0</sequence>
+  <logger>logging.example.Application</logger>
+  <level>SEVERE</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>1-severe message</message>
+</record>
+<record>
+  <date>2021-12-14T14:15:07</date>
+  <millis>1639471507604</millis>
+  <sequence>1</sequence>
+  <logger>logging.example.Application</logger>
+  <level>WARNING</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2-warning message</message>
+</record>
+<record>
+  <date>2021-12-14T14:15:07</date>
+  <millis>1639471507604</millis>
+  <sequence>2</sequence>
+  <logger>logging.example.Application</logger>
+  <level>INFO</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>3-java.util.logger configured successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-14T14:15:36</date>
+  <millis>1639471536467</millis>
+  <sequence>0</sequence>
+  <logger>logging.example.Application</logger>
+  <level>SEVERE</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>1-severe message</message>
+</record>
+<record>
+  <date>2021-12-14T14:15:36</date>
+  <millis>1639471536486</millis>
+  <sequence>1</sequence>
+  <logger>logging.example.Application</logger>
+  <level>WARNING</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2-warning message</message>
+</record>
+<record>
+  <date>2021-12-14T14:15:36</date>
+  <millis>1639471536487</millis>
+  <sequence>2</sequence>
+  <logger>logging.example.Application</logger>
+  <level>INFO</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>3-java.util.logger configured successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-14T14:42:24</date>
+  <millis>1639473144895</millis>
+  <sequence>0</sequence>
+  <logger>logging.example.Application</logger>
+  <level>SEVERE</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>1-severe message</message>
+</record>
+<record>
+  <date>2021-12-14T14:42:24</date>
+  <millis>1639473144913</millis>
+  <sequence>1</sequence>
+  <logger>logging.example.Application</logger>
+  <level>WARNING</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>2-warning message</message>
+</record>
+<record>
+  <date>2021-12-14T14:42:24</date>
+  <millis>1639473144914</millis>
+  <sequence>2</sequence>
+  <logger>logging.example.Application</logger>
+  <level>INFO</level>
+  <class>logging.example.Application</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>3-java.util.logger configured successfully</message>
+</record>
+</log>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-14T15:05:56</date>
+  <millis>1639474556284</millis>
+  <sequence>0</sequence>
+  <logger>com.employee.exceptionHandling.TestCustomException</logger>
+  <level>INFO</level>
+  <class>com.employee.exceptionHandling.TestCustomException</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Employee [employeeId=101, employeeName=ramesh, designation=developer, salary=20000.0]</message>
+</record>
+<record>
+  <date>2021-12-14T15:05:56</date>
+  <millis>1639474556356</millis>
+  <sequence>1</sequence>
+  <logger>com.employee.exceptionHandling.TestCustomException</logger>
+  <level>INFO</level>
+  <class>com.employee.exceptionHandling.TestCustomException</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Employee [employeeId=101, employeeName=shyam, designation=developer, salary=50000.0]</message>
+</record>
+</log>
+Dec 14, 2021 3:06:32 PM com.employee.exceptionHandling.TestCustomException main
+INFO: Employee [employeeId=101, employeeName=ramesh, designation=developer, salary=20000.0]
+Dec 14, 2021 3:06:32 PM com.employee.exceptionHandling.TestCustomException main
+INFO: Employee [employeeId=101, employeeName=shyam, designation=developer, salary=50000.0]
+Dec 14, 2021 3:33:09 PM com.employee.exceptionHandling.TestCustomException main
+INFO: Employee [employeeId=101, employeeName=ramesh, designation=developer, salary=20000.0]
+Dec 14, 2021 3:33:09 PM com.employee.exceptionHandling.TestCustomException main
+INFO: Employee [employeeId=101, employeeName=shyam, designation=developer, salary=50000.0]
+Dec 15, 2021 10:27:02 AM com.employee.exceptionHandling.TestCustomException main
+INFO: Employee [employeeId=101, employeeName=ramesh, designation=developer, salary=20000.0]
+Dec 15, 2021 10:27:02 AM com.employee.exceptionHandling.TestCustomException main
+INFO: Employee [employeeId=101, employeeName=shyam, designation=developer, salary=50000.0]
